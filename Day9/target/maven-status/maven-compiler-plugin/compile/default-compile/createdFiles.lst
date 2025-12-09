@@ -1,0 +1,3 @@
+com\app\jobportal\model\Job.class
+com\app\jobportal\JobportalApplication.class
+com\app\jobportal\JobController.class

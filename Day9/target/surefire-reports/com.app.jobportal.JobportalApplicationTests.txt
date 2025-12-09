@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.app.jobportal.JobportalApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.722 s -- in com.app.jobportal.JobportalApplicationTests
