@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<!-- Container for aside and main -->
+<div class="container">
+    <!-- Aside Section (Navigation Bar) -->
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="contactus">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Contact Us</h1>
+            <p> Contact us at test@gmail.com, or call us at 123-456-7890.
+        </p>
+    </main>
+</div>
+
+<!-- Link back to the home page -->
+<a th:href="@{/}">Back to Home</a>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; <span th:text="${#dates.format(#dates.createNow(), 'yyyy')}"></span> Java Academy. All rights reserved.</p>
+</footer>
+</body>
+</html>
